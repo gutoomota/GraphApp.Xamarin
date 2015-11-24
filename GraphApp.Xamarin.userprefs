@@ -1,1 +1,12 @@
-﻿<Properties StartupItem="GraphApp.Xamarin\GraphApp.Xamarin.csproj" />
+﻿<Properties StartupItem="GraphApp.Xamarin\GraphApp.Xamarin.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Xamarin_Android_API_23" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GraphApp.Xamarin\MainActivity.cs">
+    <Files>
+      <File FileName="GraphApp.Xamarin\MainActivity.cs" Line="17" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
