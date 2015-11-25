@@ -41,13 +41,38 @@
             android:text="@string/help" />
     </RelativeLayout>
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fadeScrollbars="false"
-        android:verticalScrollbarPosition="left">
-        <ListView
-            android:layout_width="match_parent"
-            android:layout_height="550dp"
-            android:id="@+id/lvMenu" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingBottom="20dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingBottom="20dp">
+                <ListView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:background="@drawable/border"
+                    android:id="@+id/lvTopSort" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <Button
+                    android:id="@+id/bDescription"
+                    android:text="@string/description"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
     </ScrollView>
 </LinearLayout>

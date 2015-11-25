@@ -252,6 +252,16 @@
     <AndroidResource Include="Resources\drawable\vertex.png" />
     <AndroidResource Include="Resources\layout\activity_main.axml" />
     <AndroidResource Include="Resources\layout\activity_menu.axml" />
+    <AndroidResource Include="Resources\layout\activity_graph.axml" />
+    <AndroidResource Include="Resources\mipmap-hdpi\vertex4.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\vertex4.png" />
+    <AndroidResource Include="Resources\layout\activity_description.axml" />
+    <AndroidResource Include="Resources\layout\activity_edge.axml" />
+    <AndroidResource Include="Resources\layout\activity_input.axml" />
+    <AndroidResource Include="Resources\layout\activity_reference.axml" />
+    <AndroidResource Include="Resources\layout\activity_top_sort.axml" />
+    <AndroidResource Include="Resources\layout\activity_vertex.axml" />
+    <AndroidResource Include="Resources\layout\activity_warshall.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

@@ -615,23 +615,725 @@ namespace GraphApp.Xamarin
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060001
-			public const int bHelp = 2131099649;
+			// aapt resource value: 0x7f06006e
+			public const int bDescription = 2131099758;
 			
-			// aapt resource value: 0x7f060004
-			public const int bNext = 2131099652;
+			// aapt resource value: 0x7f060002
+			public const int bHelp = 2131099650;
+			
+			// aapt resource value: 0x7f060008
+			public const int bInsert = 2131099656;
+			
+			// aapt resource value: 0x7f060071
+			public const int bNext = 2131099761;
+			
+			// aapt resource value: 0x7f060007
+			public const int etEnd = 2131099655;
+			
+			// aapt resource value: 0x7f060006
+			public const int etStart = 2131099654;
+			
+			// aapt resource value: 0x7f060077
+			public const int etVertex = 2131099767;
+			
+			// aapt resource value: 0x7f060005
+			public const int etWeight = 2131099653;
 			
 			// aapt resource value: 0x7f060000
 			public const int ivIcon = 2131099648;
 			
-			// aapt resource value: 0x7f060005
-			public const int lvMenu = 2131099653;
+			// aapt resource value: 0x7f060074
+			public const int lvMenu = 2131099764;
 			
-			// aapt resource value: 0x7f060002
-			public const int rbDirected = 2131099650;
+			// aapt resource value: 0x7f060076
+			public const int lvTopSort = 2131099766;
+			
+			// aapt resource value: 0x7f060072
+			public const int rbDirected = 2131099762;
+			
+			// aapt resource value: 0x7f060073
+			public const int rbRandom = 2131099763;
+			
+			// aapt resource value: 0x7f060063
+			public const int tv0 = 2131099747;
+			
+			// aapt resource value: 0x7f060083
+			public const int tv00 = 2131099779;
+			
+			// aapt resource value: 0x7f060084
+			public const int tv01 = 2131099780;
+			
+			// aapt resource value: 0x7f060085
+			public const int tv02 = 2131099781;
+			
+			// aapt resource value: 0x7f060086
+			public const int tv03 = 2131099782;
+			
+			// aapt resource value: 0x7f060087
+			public const int tv04 = 2131099783;
+			
+			// aapt resource value: 0x7f060088
+			public const int tv05 = 2131099784;
+			
+			// aapt resource value: 0x7f060089
+			public const int tv06 = 2131099785;
+			
+			// aapt resource value: 0x7f06008a
+			public const int tv07 = 2131099786;
+			
+			// aapt resource value: 0x7f06008b
+			public const int tv08 = 2131099787;
+			
+			// aapt resource value: 0x7f06008c
+			public const int tv09 = 2131099788;
+			
+			// aapt resource value: 0x7f06006c
+			public const int tv1 = 2131099756;
+			
+			// aapt resource value: 0x7f06008e
+			public const int tv10 = 2131099790;
+			
+			// aapt resource value: 0x7f06008f
+			public const int tv11 = 2131099791;
+			
+			// aapt resource value: 0x7f060090
+			public const int tv12 = 2131099792;
+			
+			// aapt resource value: 0x7f060091
+			public const int tv13 = 2131099793;
+			
+			// aapt resource value: 0x7f060092
+			public const int tv14 = 2131099794;
+			
+			// aapt resource value: 0x7f060093
+			public const int tv15 = 2131099795;
+			
+			// aapt resource value: 0x7f060094
+			public const int tv16 = 2131099796;
+			
+			// aapt resource value: 0x7f060095
+			public const int tv17 = 2131099797;
+			
+			// aapt resource value: 0x7f060096
+			public const int tv18 = 2131099798;
+			
+			// aapt resource value: 0x7f060097
+			public const int tv19 = 2131099799;
+			
+			// aapt resource value: 0x7f060066
+			public const int tv2 = 2131099750;
+			
+			// aapt resource value: 0x7f060099
+			public const int tv20 = 2131099801;
+			
+			// aapt resource value: 0x7f06009a
+			public const int tv21 = 2131099802;
+			
+			// aapt resource value: 0x7f06009b
+			public const int tv22 = 2131099803;
+			
+			// aapt resource value: 0x7f06009c
+			public const int tv23 = 2131099804;
+			
+			// aapt resource value: 0x7f06009d
+			public const int tv24 = 2131099805;
+			
+			// aapt resource value: 0x7f06009e
+			public const int tv25 = 2131099806;
+			
+			// aapt resource value: 0x7f06009f
+			public const int tv26 = 2131099807;
+			
+			// aapt resource value: 0x7f0600a0
+			public const int tv27 = 2131099808;
+			
+			// aapt resource value: 0x7f0600a1
+			public const int tv28 = 2131099809;
+			
+			// aapt resource value: 0x7f0600a2
+			public const int tv29 = 2131099810;
+			
+			// aapt resource value: 0x7f060067
+			public const int tv3 = 2131099751;
+			
+			// aapt resource value: 0x7f0600a4
+			public const int tv30 = 2131099812;
+			
+			// aapt resource value: 0x7f0600a5
+			public const int tv31 = 2131099813;
+			
+			// aapt resource value: 0x7f0600a6
+			public const int tv32 = 2131099814;
+			
+			// aapt resource value: 0x7f0600a7
+			public const int tv33 = 2131099815;
+			
+			// aapt resource value: 0x7f0600a8
+			public const int tv34 = 2131099816;
+			
+			// aapt resource value: 0x7f0600a9
+			public const int tv35 = 2131099817;
+			
+			// aapt resource value: 0x7f0600aa
+			public const int tv36 = 2131099818;
+			
+			// aapt resource value: 0x7f0600ab
+			public const int tv37 = 2131099819;
+			
+			// aapt resource value: 0x7f0600ac
+			public const int tv38 = 2131099820;
+			
+			// aapt resource value: 0x7f0600ad
+			public const int tv39 = 2131099821;
+			
+			// aapt resource value: 0x7f06006a
+			public const int tv4 = 2131099754;
+			
+			// aapt resource value: 0x7f0600af
+			public const int tv40 = 2131099823;
+			
+			// aapt resource value: 0x7f0600b0
+			public const int tv41 = 2131099824;
+			
+			// aapt resource value: 0x7f0600b1
+			public const int tv42 = 2131099825;
+			
+			// aapt resource value: 0x7f0600b2
+			public const int tv43 = 2131099826;
+			
+			// aapt resource value: 0x7f0600b3
+			public const int tv44 = 2131099827;
+			
+			// aapt resource value: 0x7f0600b4
+			public const int tv45 = 2131099828;
+			
+			// aapt resource value: 0x7f0600b5
+			public const int tv46 = 2131099829;
+			
+			// aapt resource value: 0x7f0600b6
+			public const int tv47 = 2131099830;
+			
+			// aapt resource value: 0x7f0600b7
+			public const int tv48 = 2131099831;
+			
+			// aapt resource value: 0x7f0600b8
+			public const int tv49 = 2131099832;
+			
+			// aapt resource value: 0x7f060065
+			public const int tv5 = 2131099749;
+			
+			// aapt resource value: 0x7f0600ba
+			public const int tv50 = 2131099834;
+			
+			// aapt resource value: 0x7f0600bb
+			public const int tv51 = 2131099835;
+			
+			// aapt resource value: 0x7f0600bc
+			public const int tv52 = 2131099836;
+			
+			// aapt resource value: 0x7f0600bd
+			public const int tv53 = 2131099837;
+			
+			// aapt resource value: 0x7f0600be
+			public const int tv54 = 2131099838;
+			
+			// aapt resource value: 0x7f0600bf
+			public const int tv55 = 2131099839;
+			
+			// aapt resource value: 0x7f0600c0
+			public const int tv56 = 2131099840;
+			
+			// aapt resource value: 0x7f0600c1
+			public const int tv57 = 2131099841;
+			
+			// aapt resource value: 0x7f0600c2
+			public const int tv58 = 2131099842;
+			
+			// aapt resource value: 0x7f0600c3
+			public const int tv59 = 2131099843;
+			
+			// aapt resource value: 0x7f060068
+			public const int tv6 = 2131099752;
+			
+			// aapt resource value: 0x7f0600c5
+			public const int tv60 = 2131099845;
+			
+			// aapt resource value: 0x7f0600c6
+			public const int tv61 = 2131099846;
+			
+			// aapt resource value: 0x7f0600c7
+			public const int tv62 = 2131099847;
+			
+			// aapt resource value: 0x7f0600c8
+			public const int tv63 = 2131099848;
+			
+			// aapt resource value: 0x7f0600c9
+			public const int tv64 = 2131099849;
+			
+			// aapt resource value: 0x7f0600ca
+			public const int tv65 = 2131099850;
+			
+			// aapt resource value: 0x7f0600cb
+			public const int tv66 = 2131099851;
+			
+			// aapt resource value: 0x7f0600cc
+			public const int tv67 = 2131099852;
+			
+			// aapt resource value: 0x7f0600cd
+			public const int tv68 = 2131099853;
+			
+			// aapt resource value: 0x7f0600ce
+			public const int tv69 = 2131099854;
+			
+			// aapt resource value: 0x7f060069
+			public const int tv7 = 2131099753;
+			
+			// aapt resource value: 0x7f0600d0
+			public const int tv70 = 2131099856;
+			
+			// aapt resource value: 0x7f0600d1
+			public const int tv71 = 2131099857;
+			
+			// aapt resource value: 0x7f0600d2
+			public const int tv72 = 2131099858;
+			
+			// aapt resource value: 0x7f0600d3
+			public const int tv73 = 2131099859;
+			
+			// aapt resource value: 0x7f0600d4
+			public const int tv74 = 2131099860;
+			
+			// aapt resource value: 0x7f0600d5
+			public const int tv75 = 2131099861;
+			
+			// aapt resource value: 0x7f0600d6
+			public const int tv76 = 2131099862;
+			
+			// aapt resource value: 0x7f0600d7
+			public const int tv77 = 2131099863;
+			
+			// aapt resource value: 0x7f0600d8
+			public const int tv78 = 2131099864;
+			
+			// aapt resource value: 0x7f0600d9
+			public const int tv79 = 2131099865;
+			
+			// aapt resource value: 0x7f060064
+			public const int tv8 = 2131099748;
+			
+			// aapt resource value: 0x7f0600db
+			public const int tv80 = 2131099867;
+			
+			// aapt resource value: 0x7f0600dc
+			public const int tv81 = 2131099868;
+			
+			// aapt resource value: 0x7f0600dd
+			public const int tv82 = 2131099869;
+			
+			// aapt resource value: 0x7f0600de
+			public const int tv83 = 2131099870;
+			
+			// aapt resource value: 0x7f0600df
+			public const int tv84 = 2131099871;
+			
+			// aapt resource value: 0x7f0600e0
+			public const int tv85 = 2131099872;
+			
+			// aapt resource value: 0x7f0600e1
+			public const int tv86 = 2131099873;
+			
+			// aapt resource value: 0x7f0600e2
+			public const int tv87 = 2131099874;
+			
+			// aapt resource value: 0x7f0600e3
+			public const int tv88 = 2131099875;
+			
+			// aapt resource value: 0x7f0600e4
+			public const int tv89 = 2131099876;
+			
+			// aapt resource value: 0x7f06006b
+			public const int tv9 = 2131099755;
+			
+			// aapt resource value: 0x7f0600e6
+			public const int tv90 = 2131099878;
+			
+			// aapt resource value: 0x7f0600e7
+			public const int tv91 = 2131099879;
+			
+			// aapt resource value: 0x7f0600e8
+			public const int tv92 = 2131099880;
+			
+			// aapt resource value: 0x7f0600e9
+			public const int tv93 = 2131099881;
+			
+			// aapt resource value: 0x7f0600ea
+			public const int tv94 = 2131099882;
+			
+			// aapt resource value: 0x7f0600eb
+			public const int tv95 = 2131099883;
+			
+			// aapt resource value: 0x7f0600ec
+			public const int tv96 = 2131099884;
+			
+			// aapt resource value: 0x7f0600ed
+			public const int tv97 = 2131099885;
+			
+			// aapt resource value: 0x7f0600ee
+			public const int tv98 = 2131099886;
+			
+			// aapt resource value: 0x7f0600ef
+			public const int tv99 = 2131099887;
+			
+			// aapt resource value: 0x7f060004
+			public const int tvComplexity = 2131099652;
 			
 			// aapt resource value: 0x7f060003
-			public const int rbRandom = 2131099651;
+			public const int tvDescription = 2131099651;
+			
+			// aapt resource value: 0x7f06000d
+			public const int tvE01 = 2131099661;
+			
+			// aapt resource value: 0x7f06000a
+			public const int tvE02 = 2131099658;
+			
+			// aapt resource value: 0x7f06000f
+			public const int tvE03 = 2131099663;
+			
+			// aapt resource value: 0x7f06000c
+			public const int tvE04 = 2131099660;
+			
+			// aapt resource value: 0x7f06000e
+			public const int tvE05 = 2131099662;
+			
+			// aapt resource value: 0x7f06000b
+			public const int tvE06 = 2131099659;
+			
+			// aapt resource value: 0x7f060010
+			public const int tvE07 = 2131099664;
+			
+			// aapt resource value: 0x7f060009
+			public const int tvE08 = 2131099657;
+			
+			// aapt resource value: 0x7f060011
+			public const int tvE09 = 2131099665;
+			
+			// aapt resource value: 0x7f060012
+			public const int tvE10 = 2131099666;
+			
+			// aapt resource value: 0x7f060015
+			public const int tvE12 = 2131099669;
+			
+			// aapt resource value: 0x7f060019
+			public const int tvE13 = 2131099673;
+			
+			// aapt resource value: 0x7f060013
+			public const int tvE14 = 2131099667;
+			
+			// aapt resource value: 0x7f06001a
+			public const int tvE15 = 2131099674;
+			
+			// aapt resource value: 0x7f060014
+			public const int tvE16 = 2131099668;
+			
+			// aapt resource value: 0x7f060018
+			public const int tvE17 = 2131099672;
+			
+			// aapt resource value: 0x7f060016
+			public const int tvE18 = 2131099670;
+			
+			// aapt resource value: 0x7f060017
+			public const int tvE19 = 2131099671;
+			
+			// aapt resource value: 0x7f060048
+			public const int tvE20 = 2131099720;
+			
+			// aapt resource value: 0x7f060049
+			public const int tvE21 = 2131099721;
+			
+			// aapt resource value: 0x7f06004e
+			public const int tvE23 = 2131099726;
+			
+			// aapt resource value: 0x7f06004c
+			public const int tvE24 = 2131099724;
+			
+			// aapt resource value: 0x7f06004a
+			public const int tvE25 = 2131099722;
+			
+			// aapt resource value: 0x7f060050
+			public const int tvE26 = 2131099728;
+			
+			// aapt resource value: 0x7f06004f
+			public const int tvE27 = 2131099727;
+			
+			// aapt resource value: 0x7f06004b
+			public const int tvE28 = 2131099723;
+			
+			// aapt resource value: 0x7f06004d
+			public const int tvE29 = 2131099725;
+			
+			// aapt resource value: 0x7f06003f
+			public const int tvE30 = 2131099711;
+			
+			// aapt resource value: 0x7f060040
+			public const int tvE31 = 2131099712;
+			
+			// aapt resource value: 0x7f060045
+			public const int tvE32 = 2131099717;
+			
+			// aapt resource value: 0x7f060043
+			public const int tvE34 = 2131099715;
+			
+			// aapt resource value: 0x7f060041
+			public const int tvE35 = 2131099713;
+			
+			// aapt resource value: 0x7f060046
+			public const int tvE36 = 2131099718;
+			
+			// aapt resource value: 0x7f060047
+			public const int tvE37 = 2131099719;
+			
+			// aapt resource value: 0x7f060042
+			public const int tvE38 = 2131099714;
+			
+			// aapt resource value: 0x7f060044
+			public const int tvE39 = 2131099716;
+			
+			// aapt resource value: 0x7f06002d
+			public const int tvE40 = 2131099693;
+			
+			// aapt resource value: 0x7f06002e
+			public const int tvE41 = 2131099694;
+			
+			// aapt resource value: 0x7f060034
+			public const int tvE42 = 2131099700;
+			
+			// aapt resource value: 0x7f060033
+			public const int tvE43 = 2131099699;
+			
+			// aapt resource value: 0x7f06002f
+			public const int tvE45 = 2131099695;
+			
+			// aapt resource value: 0x7f060035
+			public const int tvE46 = 2131099701;
+			
+			// aapt resource value: 0x7f060032
+			public const int tvE47 = 2131099698;
+			
+			// aapt resource value: 0x7f060030
+			public const int tvE48 = 2131099696;
+			
+			// aapt resource value: 0x7f060031
+			public const int tvE49 = 2131099697;
+			
+			// aapt resource value: 0x7f06001b
+			public const int tvE50 = 2131099675;
+			
+			// aapt resource value: 0x7f06001c
+			public const int tvE51 = 2131099676;
+			
+			// aapt resource value: 0x7f06001e
+			public const int tvE52 = 2131099678;
+			
+			// aapt resource value: 0x7f060023
+			public const int tvE53 = 2131099683;
+			
+			// aapt resource value: 0x7f060020
+			public const int tvE54 = 2131099680;
+			
+			// aapt resource value: 0x7f06001f
+			public const int tvE56 = 2131099679;
+			
+			// aapt resource value: 0x7f060022
+			public const int tvE57 = 2131099682;
+			
+			// aapt resource value: 0x7f06001d
+			public const int tvE58 = 2131099677;
+			
+			// aapt resource value: 0x7f060021
+			public const int tvE59 = 2131099681;
+			
+			// aapt resource value: 0x7f060051
+			public const int tvE60 = 2131099729;
+			
+			// aapt resource value: 0x7f060052
+			public const int tvE61 = 2131099730;
+			
+			// aapt resource value: 0x7f060058
+			public const int tvE62 = 2131099736;
+			
+			// aapt resource value: 0x7f060057
+			public const int tvE63 = 2131099735;
+			
+			// aapt resource value: 0x7f060055
+			public const int tvE64 = 2131099733;
+			
+			// aapt resource value: 0x7f060053
+			public const int tvE65 = 2131099731;
+			
+			// aapt resource value: 0x7f060059
+			public const int tvE67 = 2131099737;
+			
+			// aapt resource value: 0x7f060054
+			public const int tvE68 = 2131099732;
+			
+			// aapt resource value: 0x7f060056
+			public const int tvE69 = 2131099734;
+			
+			// aapt resource value: 0x7f06005a
+			public const int tvE70 = 2131099738;
+			
+			// aapt resource value: 0x7f06005b
+			public const int tvE71 = 2131099739;
+			
+			// aapt resource value: 0x7f060061
+			public const int tvE72 = 2131099745;
+			
+			// aapt resource value: 0x7f060060
+			public const int tvE73 = 2131099744;
+			
+			// aapt resource value: 0x7f06005e
+			public const int tvE74 = 2131099742;
+			
+			// aapt resource value: 0x7f06005c
+			public const int tvE75 = 2131099740;
+			
+			// aapt resource value: 0x7f060062
+			public const int tvE76 = 2131099746;
+			
+			// aapt resource value: 0x7f06005d
+			public const int tvE78 = 2131099741;
+			
+			// aapt resource value: 0x7f06005f
+			public const int tvE79 = 2131099743;
+			
+			// aapt resource value: 0x7f060024
+			public const int tvE80 = 2131099684;
+			
+			// aapt resource value: 0x7f060025
+			public const int tvE81 = 2131099685;
+			
+			// aapt resource value: 0x7f06002c
+			public const int tvE82 = 2131099692;
+			
+			// aapt resource value: 0x7f060027
+			public const int tvE83 = 2131099687;
+			
+			// aapt resource value: 0x7f06002a
+			public const int tvE84 = 2131099690;
+			
+			// aapt resource value: 0x7f060026
+			public const int tvE85 = 2131099686;
+			
+			// aapt resource value: 0x7f06002b
+			public const int tvE86 = 2131099691;
+			
+			// aapt resource value: 0x7f060028
+			public const int tvE87 = 2131099688;
+			
+			// aapt resource value: 0x7f060029
+			public const int tvE89 = 2131099689;
+			
+			// aapt resource value: 0x7f060036
+			public const int tvE90 = 2131099702;
+			
+			// aapt resource value: 0x7f060037
+			public const int tvE91 = 2131099703;
+			
+			// aapt resource value: 0x7f06003c
+			public const int tvE92 = 2131099708;
+			
+			// aapt resource value: 0x7f06003d
+			public const int tvE93 = 2131099709;
+			
+			// aapt resource value: 0x7f06003a
+			public const int tvE94 = 2131099706;
+			
+			// aapt resource value: 0x7f060038
+			public const int tvE95 = 2131099704;
+			
+			// aapt resource value: 0x7f06003b
+			public const int tvE96 = 2131099707;
+			
+			// aapt resource value: 0x7f06003e
+			public const int tvE97 = 2131099710;
+			
+			// aapt resource value: 0x7f060039
+			public const int tvE98 = 2131099705;
+			
+			// aapt resource value: 0x7f060070
+			public const int tvEnd = 2131099760;
+			
+			// aapt resource value: 0x7f06006d
+			public const int tvGraph = 2131099757;
+			
+			// aapt resource value: 0x7f060075
+			public const int tvRef = 2131099765;
+			
+			// aapt resource value: 0x7f06006f
+			public const int tvStart = 2131099759;
+			
+			// aapt resource value: 0x7f060001
+			public const int tvTitle = 2131099649;
+			
+			// aapt resource value: 0x7f060078
+			public const int tvVc0 = 2131099768;
+			
+			// aapt resource value: 0x7f060079
+			public const int tvVc1 = 2131099769;
+			
+			// aapt resource value: 0x7f06007a
+			public const int tvVc2 = 2131099770;
+			
+			// aapt resource value: 0x7f06007b
+			public const int tvVc3 = 2131099771;
+			
+			// aapt resource value: 0x7f06007c
+			public const int tvVc4 = 2131099772;
+			
+			// aapt resource value: 0x7f06007d
+			public const int tvVc5 = 2131099773;
+			
+			// aapt resource value: 0x7f06007e
+			public const int tvVc6 = 2131099774;
+			
+			// aapt resource value: 0x7f06007f
+			public const int tvVc7 = 2131099775;
+			
+			// aapt resource value: 0x7f060080
+			public const int tvVc8 = 2131099776;
+			
+			// aapt resource value: 0x7f060081
+			public const int tvVc9 = 2131099777;
+			
+			// aapt resource value: 0x7f060082
+			public const int tvVl0 = 2131099778;
+			
+			// aapt resource value: 0x7f06008d
+			public const int tvVl1 = 2131099789;
+			
+			// aapt resource value: 0x7f060098
+			public const int tvVl2 = 2131099800;
+			
+			// aapt resource value: 0x7f0600a3
+			public const int tvVl3 = 2131099811;
+			
+			// aapt resource value: 0x7f0600ae
+			public const int tvVl4 = 2131099822;
+			
+			// aapt resource value: 0x7f0600b9
+			public const int tvVl5 = 2131099833;
+			
+			// aapt resource value: 0x7f0600c4
+			public const int tvVl6 = 2131099844;
+			
+			// aapt resource value: 0x7f0600cf
+			public const int tvVl7 = 2131099855;
+			
+			// aapt resource value: 0x7f0600da
+			public const int tvVl8 = 2131099866;
+			
+			// aapt resource value: 0x7f0600e5
+			public const int tvVl9 = 2131099877;
 			
 			static Id()
 			{
@@ -647,10 +1349,34 @@ namespace GraphApp.Xamarin
 		{
 			
 			// aapt resource value: 0x7f040000
-			public const int activity_main = 2130968576;
+			public const int activity_description = 2130968576;
 			
 			// aapt resource value: 0x7f040001
-			public const int activity_menu = 2130968577;
+			public const int activity_edge = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int activity_graph = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int activity_input = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int activity_main = 2130968580;
+			
+			// aapt resource value: 0x7f040005
+			public const int activity_menu = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public const int activity_reference = 2130968582;
+			
+			// aapt resource value: 0x7f040007
+			public const int activity_top_sort = 2130968583;
+			
+			// aapt resource value: 0x7f040008
+			public const int activity_vertex = 2130968584;
+			
+			// aapt resource value: 0x7f040009
+			public const int activity_warshall = 2130968585;
 			
 			static Layout()
 			{
@@ -667,6 +1393,9 @@ namespace GraphApp.Xamarin
 			
 			// aapt resource value: 0x7f030000
 			public const int Icon = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int vertex4 = 2130903041;
 			
 			static Mipmap()
 			{

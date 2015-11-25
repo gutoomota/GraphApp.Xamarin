@@ -8,7 +8,6 @@ C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug
 C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\GraphApp.Xamarin.dll
 C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\GraphApp.Xamarin.pdb
 C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\android\bin\com.companyname.graphapp_xamarin.apk
-C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\layout\main.xml
 C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\values\strings.xml
 C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\mipmap-hdpi\icon.png
 C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\mipmap-mdpi\icon.png
@@ -203,3 +202,10 @@ C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug
 C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\drawable\und97.png
 C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\drawable\und98.png
 C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\drawable\vertex.png
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\layout\activity_main.xml
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\layout\activity_menu.xml
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\layout\activity_graph.xml
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\mipmap-hdpi\vertex4.png
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\mipmap-mdpi\vertex4.png
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\layout\activity_description.xml
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\layout\activity_edge.xml

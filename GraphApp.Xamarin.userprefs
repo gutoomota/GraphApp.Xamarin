@@ -1,12 +1,6 @@
 ﻿<Properties StartupItem="GraphApp.Xamarin\GraphApp.Xamarin.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Xamarin_Android_API_23" />
-  <MonoDevelop.Ide.Workbench>
-    <Files>
-      <File FileName="GraphApp.Xamarin\App\Activities\MainActivity.cs" Line="7" Column="7" />
-      <File FileName="GraphApp.Xamarin\Resources\drawable\background.xml" Line="7" Column="9" />
-      <File FileName="GraphApp.Xamarin\Resources\drawable\border.xml" Line="7" Column="9" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 7 (Marshmallow)" />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

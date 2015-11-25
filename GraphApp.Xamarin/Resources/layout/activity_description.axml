@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginBottom="10dp">
+        <ImageView
+            android:id="@+id/ivIcon"
+            android:background="@drawable/icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true" />
+        <TextView
+            android:id="@+id/tvTitle"
+            android:text="@string/app_name"
+            android:layout_toRightOf="@id/ivIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="9dp"
+            android:paddingBottom="7dp"
+            android:textSize="25dp"
+            android:background="@android:color/holo_blue_dark" />
+        <Button
+            android:id="@+id/bHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingTop="26.5dp"
+            android:paddingBottom="11.2dp"
+            android:gravity="center"
+            android:textSize="9dp"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:text="@string/help" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingLeft="20dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description"
+                    android:paddingTop="20dp"
+                    android:textSize="25dp" />
+                <TextView
+                    android:layout_width="310dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:padding="5dp"
+                    android:textSize="15dp"
+                    android:id="@+id/tvDescription"
+                    android:layout_weight="7.97" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingLeft="20dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/complexity"
+                    android:paddingTop="20dp"
+                    android:textSize="25dp" />
+                <TextView
+                    android:layout_width="310dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:padding="5dp"
+                    android:textSize="15dp"
+                    android:id="@+id/tvComplexity"
+                    android:layout_weight="7.97" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
