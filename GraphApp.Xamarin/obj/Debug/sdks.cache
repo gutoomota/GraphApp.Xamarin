@@ -3,17 +3,17 @@
   <AndroidApiLevel>19</AndroidApiLevel>
   <AndroidApiLevelName>19</AndroidApiLevelName>
   <AndroidNdkPath>C:\Users\Emerson\Documents\Android\ndk\android-ndk-r10e</AndroidNdkPath>
-  <AndroidSdkBuildToolsPath>C:\Users\Emerson\AppData\Local\Android\android-sdk\build-tools\23.0.1</AndroidSdkBuildToolsPath>
-  <AndroidSdkBuildToolsBinPath>C:\Users\Emerson\AppData\Local\Android\android-sdk\build-tools\23.0.1</AndroidSdkBuildToolsBinPath>
+  <AndroidSdkBuildToolsPath>C:\Users\Emerson\AppData\Local\Android\android-sdk\build-tools\23.0.2</AndroidSdkBuildToolsPath>
+  <AndroidSdkBuildToolsBinPath>C:\Users\Emerson\AppData\Local\Android\android-sdk\build-tools\23.0.2</AndroidSdkBuildToolsBinPath>
   <AndroidSdkPath>C:\Users\Emerson\AppData\Local\Android\android-sdk</AndroidSdkPath>
-  <JavaSdkPath>C:\Program Files (x86)\Java\jdk1.7.0_79</JavaSdkPath>
+  <JavaSdkPath>C:\Java\jdk1.7.0_79</JavaSdkPath>
   <MonoAndroidBinPath>C:\Program Files (x86)\MSBuild\Xamarin\Android</MonoAndroidBinPath>
   <MonoAndroidToolsPath>C:\Program Files (x86)\MSBuild\Xamarin\Android</MonoAndroidToolsPath>
   <ReferenceAssemblyPaths>
     <ReferenceAssemblyPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\</ReferenceAssemblyPath>
   </ReferenceAssemblyPaths>
   <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
-  <ZipAlignPath>C:\Users\Emerson\AppData\Local\Android\android-sdk\build-tools\23.0.1</ZipAlignPath>
+  <ZipAlignPath>C:\Users\Emerson\AppData\Local\Android\android-sdk\build-tools\23.0.2</ZipAlignPath>
   <MonoAndroidIncludePath />
   <SupportedApiLevel>19</SupportedApiLevel>
   <AndroidSequencePointsMode>None</AndroidSequencePointsMode>

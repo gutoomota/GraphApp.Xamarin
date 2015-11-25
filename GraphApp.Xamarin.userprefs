@@ -1,12 +1,15 @@
 ﻿<Properties StartupItem="GraphApp.Xamarin\GraphApp.Xamarin.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Xamarin_Android_API_23" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GraphApp.Xamarin\MainActivity.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="GraphApp.Xamarin\MainActivity.cs" Line="17" Column="10" />
+      <File FileName="GraphApp.Xamarin\App\Activities\MainActivity.cs" Line="7" Column="7" />
+      <File FileName="GraphApp.Xamarin\Resources\drawable\background.xml" Line="7" Column="9" />
+      <File FileName="GraphApp.Xamarin\Resources\drawable\border.xml" Line="7" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.GraphApp.Xamarin AndroidDesignerPreferredDevice="Nexus 4" />
 </Properties>

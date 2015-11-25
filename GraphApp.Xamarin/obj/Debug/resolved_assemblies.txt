@@ -1,0 +1,10 @@
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\assemblies\GraphApp.Xamarin.dll
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\assemblies\Mono.Android.dll
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\assemblies\mscorlib.dll
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\assemblies\System.Core.dll
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\assemblies\System.dll
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\assemblies\System.Xml.dll
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\assemblies\Xamarin.Insights.dll
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\assemblies\System.Runtime.Serialization.dll
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\assemblies\System.ServiceModel.Internals.dll
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\assemblies\System.Net.Http.dll
