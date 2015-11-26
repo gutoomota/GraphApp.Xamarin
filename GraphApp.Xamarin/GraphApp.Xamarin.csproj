@@ -50,6 +50,12 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="App\Activities\MainActivity.cs" />
+    <Compile Include="App\Activities\MenuActivity.cs" />
+    <Compile Include="App\Structures\Edge.cs" />
+    <Compile Include="App\Structures\Graph.cs" />
+    <Compile Include="App\Structures\Vertex.cs" />
+    <Compile Include="App\Texts\TextsEN.cs" />
+    <Compile Include="App\Controller.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -267,6 +273,8 @@
     <Folder Include="Resources\drawable\" />
     <Folder Include="App\" />
     <Folder Include="App\Activities\" />
+    <Folder Include="App\Structures\" />
+    <Folder Include="App\Texts\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Insights.1.10.6\build\MonoAndroid10\Xamarin.Insights.targets" Condition="Exists('..\packages\Xamarin.Insights.1.10.6\build\MonoAndroid10\Xamarin.Insights.targets')" />

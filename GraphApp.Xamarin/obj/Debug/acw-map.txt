@@ -2,6 +2,10 @@ GraphApp.Xamarin.MainActivity, GraphApp.Xamarin;md589fcb7b6d262f22ecdfd4d19f59be
 GraphApp.Xamarin.MainActivity, GraphApp.Xamarin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md589fcb7b6d262f22ecdfd4d19f59bee9f.MainActivity
 GraphApp.Xamarin.MainActivity;md589fcb7b6d262f22ecdfd4d19f59bee9f.MainActivity
 graphapp.xamarin.MainActivity;md589fcb7b6d262f22ecdfd4d19f59bee9f.MainActivity
+GraphApp.Xamarin.MenuActivity, GraphApp.Xamarin;md589fcb7b6d262f22ecdfd4d19f59bee9f.MenuActivity
+GraphApp.Xamarin.MenuActivity, GraphApp.Xamarin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md589fcb7b6d262f22ecdfd4d19f59bee9f.MenuActivity
+GraphApp.Xamarin.MenuActivity;md589fcb7b6d262f22ecdfd4d19f59bee9f.MenuActivity
+graphapp.xamarin.MenuActivity;md589fcb7b6d262f22ecdfd4d19f59bee9f.MenuActivity
 Xamarin.InsightsCore.BackgroundManager, Xamarin.Insights;md55aa83cb61847c4249bb0dd44fd0a56e6.BackgroundManager
 Xamarin.InsightsCore.BackgroundManager, Xamarin.Insights, Version=1.10.0.0, Culture=neutral, PublicKeyToken=null;md55aa83cb61847c4249bb0dd44fd0a56e6.BackgroundManager
 Xamarin.InsightsCore.BackgroundManager;md55aa83cb61847c4249bb0dd44fd0a56e6.BackgroundManager

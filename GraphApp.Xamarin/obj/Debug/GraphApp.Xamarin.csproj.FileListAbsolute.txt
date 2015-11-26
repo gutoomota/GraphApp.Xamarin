@@ -209,3 +209,8 @@ C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug
 C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\mipmap-mdpi\vertex4.png
 C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\layout\activity_description.xml
 C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\layout\activity_edge.xml
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\layout\activity_input.xml
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\layout\activity_reference.xml
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\layout\activity_top_sort.xml
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\layout\activity_vertex.xml
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\layout\activity_warshall.xml
