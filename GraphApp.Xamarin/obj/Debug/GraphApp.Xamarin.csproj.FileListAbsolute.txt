@@ -214,3 +214,5 @@ C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug
 C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\layout\activity_top_sort.xml
 C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\layout\activity_vertex.xml
 C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\layout\activity_warshall.xml
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\drawable\monoandroidsplash.png
+C:\Users\Emerson\Documents\workspace\GraphApp.Xamarin\GraphApp.Xamarin\obj\Debug\res\values\styles.xml

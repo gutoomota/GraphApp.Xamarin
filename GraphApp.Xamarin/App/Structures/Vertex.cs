@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace GraphApp.Xamarin
 {
-	public class Vertex
+	public class Vertex : IComparable<Vertex>
 	{
 		private String name;
 		private int distance;
@@ -101,7 +101,7 @@ namespace GraphApp.Xamarin
 			return s;
 		}
 
-		public int compareTo(Vertex vertex) {
+		public int CompareTo(Vertex vertex) {
 
 			if(this.getDistance() < vertex.getDistance())
 				return -1;
