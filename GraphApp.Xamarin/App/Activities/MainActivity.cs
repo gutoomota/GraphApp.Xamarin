@@ -6,7 +6,7 @@ using Android.Views;
 
 namespace GraphApp.Xamarin
 {
-	[Activity (Label = "GraphApp.Xamarin", MainLauncher = true, Icon = "@mipmap/icon")]
+	[Activity (MainLauncher = true)]
 	public class MainActivity : Activity
 	{
 		RadioButton rbDirected, rbRandom;
@@ -32,6 +32,7 @@ namespace GraphApp.Xamarin
 				i.PutExtra("directed",rbDirected.Checked);
 				i.PutExtra("random", rbRandom.Checked);
 				StartActivity(i);
+				Finish();
 			};
 			/*Button button = FindViewById<Button> (Resource.Id.myButton);
 			

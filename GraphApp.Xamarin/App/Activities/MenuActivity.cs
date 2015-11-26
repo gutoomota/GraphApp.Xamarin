@@ -4,6 +4,8 @@ using Android.OS;
 using Android.Content;
 using Android.Views;
 
+using System;
+
 namespace GraphApp.Xamarin
 {
 	[Activity (Label = "GraphApp.Xamarin", Icon = "@mipmap/icon")]
