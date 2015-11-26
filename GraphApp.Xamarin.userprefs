@@ -1,6 +1,10 @@
 ﻿<Properties StartupItem="GraphApp.Xamarin\GraphApp.Xamarin.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 7 (Marshmallow)" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GraphApp.Xamarin\App\Activities\MenuActivity.cs">
+    <Files>
+      <File FileName="GraphApp.Xamarin\App\Activities\MenuActivity.cs" Line="54" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
