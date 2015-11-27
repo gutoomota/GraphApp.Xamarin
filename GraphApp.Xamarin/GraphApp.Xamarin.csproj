@@ -57,6 +57,13 @@
     <Compile Include="App\Texts\TextsEN.cs" />
     <Compile Include="App\Controller.cs" />
     <Compile Include="App\Activities\DescriptionActivity.cs" />
+    <Compile Include="App\Activities\EdgeActivity.cs" />
+    <Compile Include="App\Activities\GraphActivity.cs" />
+    <Compile Include="App\Activities\InputActivity.cs" />
+    <Compile Include="App\Activities\ReferenceActivity.cs" />
+    <Compile Include="App\Activities\TopSortActivity.cs" />
+    <Compile Include="App\Activities\VertexActivity.cs" />
+    <Compile Include="App\Activities\WarshallActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

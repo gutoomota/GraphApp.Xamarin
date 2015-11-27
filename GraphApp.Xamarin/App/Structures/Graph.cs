@@ -6,11 +6,11 @@ namespace GraphApp.Xamarin
 {
 	public class Graph
 	{
-		private List<Edge> edges = new List<Edge>();
-		private List<Vertex> vertices = new List<Vertex>();
-		private bool cycle = false;
-		private bool directed = false;
-		private bool connected = false;
+		public List<Edge> edges = new List<Edge>();
+		public List<Vertex> vertices = new List<Vertex>();
+		public bool cycle = false; //TROCAR PARA PRIVATE!
+		public bool directed = false;
+		public bool connected = false;
 
 		public void clearGraph() {
 			edges.Clear();
@@ -288,10 +288,8 @@ namespace GraphApp.Xamarin
 			// creates a number between 3 and 10
 			int b=rn.Next(3,11);
 			for(int i=0;i<= b ; i++){
-				addVertex(alphabet[i].ToString());
+				addVertex(alphabet[i] + "");
 			}
-
-			printVertices();
 			//Adding Edges
 
 			foreach(Vertex v1 in vertices)
@@ -304,7 +302,6 @@ namespace GraphApp.Xamarin
 							addEdge(rn.Next(3,11), v1.getName(), v2.getName());
 						}
 					}
-			printGraph();
 		}
 
 		// ----------------------KRUSKAL--------------------------------------------

@@ -45,9 +45,14 @@
         android:layout_height="match_parent"
         android:fadeScrollbars="false"
         android:verticalScrollbarPosition="left">
-        <ListView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="550dp"
-            android:id="@+id/lvMenu" />
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                android:id="@+id/lvMenu" />
+        </LinearLayout>
     </ScrollView>
 </LinearLayout>
