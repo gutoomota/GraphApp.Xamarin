@@ -6,11 +6,11 @@ namespace GraphApp.Xamarin
 {
 	public class Graph
 	{
-		public List<Edge> edges = new List<Edge>();
-		public List<Vertex> vertices = new List<Vertex>();
-		public bool cycle = false; //TROCAR PARA PRIVATE!
-		public bool directed = false;
-		public bool connected = false;
+		private List<Edge> edges = new List<Edge>();
+		private List<Vertex> vertices = new List<Vertex>();
+		private bool cycle = false;
+		private bool directed = false;
+		private bool connected = false;
 
 		public void clearGraph() {
 			edges.Clear();
@@ -130,13 +130,13 @@ namespace GraphApp.Xamarin
 
 			if (!cycle)
 				hasCycle(a);
-
+			
 			edges.Add(a);
 			k = edges.Count;
 
 			// add edge in the list of incident edges of each vertex
-			vertices[i].addIncidents(edges[k - 1]);
-			vertices[j].addIncidents(edges[k - 1]);
+			vertices [i].addIncidents (edges [k - 1]);
+			vertices [j].addIncidents (edges [k - 1]);
 
 			if (!connected)
 				setConnected();
@@ -160,6 +160,7 @@ namespace GraphApp.Xamarin
 			queue.Add(current);
 
 			while (queue.Count > 0) {
+				current = queue [0];
 				queue.Remove(current);
 				current.setColor("black");
 
@@ -545,6 +546,7 @@ namespace GraphApp.Xamarin
 			queue.Add(current);
 
 			while (queue.Count > 0) {
+				current = queue [0];
 				queue.Remove(current);
 				current.setColor("black");
 

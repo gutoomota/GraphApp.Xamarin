@@ -3,13 +3,14 @@ using Android.Widget;
 using Android.OS;
 using Android.Content;
 using Android.Views;
+using Android.Runtime;
 
 using System;
 using System.Collections.Generic;
 
 namespace GraphApp.Xamarin
 {
-	[Activity (Label = "GraphApp.Xamarin", Icon = "@mipmap/icon")]
+	[Activity ()]
 	public class MenuActivity : Activity
 	{
 		ListView lvMenu;
@@ -17,66 +18,14 @@ namespace GraphApp.Xamarin
 
 		int controllerLog, previous;
 
+		//Double Back to Exit Operation
+		bool doubleBackToExitPressedOnce = false;
+
 		protected override void OnCreate (Bundle savedInstanceState)
 		{
-			
-			Graph graph = new Graph();
-			graph.setDirected(true);
+			Intent i = Intent;
 
-			int weight = 1;
-			Vertex start = new Vertex("a");
-			Vertex end = new Vertex("b");
-			//graph.addEdge(1, "a", "b");
-
-			int i, j, k;
-
-			/*Toast.MakeText(this, "1", ToastLength.Long).Show();
-			graph.findEdge(start, end);
-
-			Toast.MakeText(this, "2", ToastLength.Long).Show();
-
-			i=graph.vertexLocation("a");
-
-			Toast.MakeText(this, "3", ToastLength.Long).Show();
-
-			graph.getVertices ();
-
-			Toast.MakeText(this, "4", ToastLength.Long).Show();
-
-			graph.addVertex("a");
-
-			*/Toast.MakeText(this, "5", ToastLength.Long).Show();
-			// add edge in the list
-			Edge a = new Edge(weight, start, end);
-
-			Toast.MakeText(this, "6", ToastLength.Long).Show();
-
-			graph.hasCycle(a);
-			
-			Toast.MakeText(this, "7", ToastLength.Long).Show();
-
-			graph.edges.Add(a);
-
-			Toast.MakeText(this, "8", ToastLength.Long).Show();
-
-			i=graph.vertexLocation("a");
-			j=graph.vertexLocation("a");
-			k = graph.vertices.Count;
-
-			//Checking if the Vertices can be inserted (the maximum number of vertices is 10)
-			if(graph.vertices.Count>=9){
-				if (i==graph.vertices.Count)
-					k++;
-				if (j==graph.vertices.Count)
-					k++;
-			}
-
-			graph.vertices[i].addIncidents(graph.edges[k - 1]);
-
-			graph.setConnected();
-			
-			Toast.MakeText(this, "9", ToastLength.Long).Show();
-			/*previous = i.GetIntExtra("previous", -1);
+			previous = i.GetIntExtra("previous", -1);
 			if ((previous==0)||(previous==1)||(previous==2)) {
 				controllerLog = Controller.main(i);
 				switch (controllerLog) {
@@ -99,7 +48,10 @@ namespace GraphApp.Xamarin
 					Toast.MakeText(this, TextsEN.getErrorByPosition(6), ToastLength.Long).Show();
 					break;
 				}
-			}*/
+			}
+
+			//Controller.getGraph().getVertices()[0].addIncidents(new Edge(1,new Vertex("a"),new Vertex("b")));
+
 			base.OnCreate (savedInstanceState);
 			RequestWindowFeature (WindowFeatures.NoTitle);
 			// Set our view from the "main" layout resource
@@ -112,11 +64,11 @@ namespace GraphApp.Xamarin
 
 			lvMenu.Adapter = adapter;
 
-			/*lvMenu.ItemClick += OnListItemClick;	
+			lvMenu.ItemClick += OnListItemClick;	
 
 			bHelp.Click += delegate {
 				Toast.MakeText(this, TextsEN.getHelpByPosition(1), ToastLength.Long).Show();
-			};*/
+			};
 		}
 
 		void OnListItemClick(object sender, AdapterView.ItemClickEventArgs e)
@@ -204,6 +156,25 @@ namespace GraphApp.Xamarin
 				Finish();
 				break;
 			}
+		}
+
+		public override void OnBackPressed() {
+			if (doubleBackToExitPressedOnce) {
+				Controller.destroy();
+				System.Environment.Exit(0);
+				Finish();
+				return;
+			}
+
+			this.doubleBackToExitPressedOnce = true;
+			Toast.MakeText(this, "Please click BACK again to exit", ToastLength.Long).Show();
+
+			new Handler().PostDelayed(new Runnable() {
+
+				public override void run() {
+					doubleBackToExitPressedOnce=false;
+				}
+			}, 2000);
 		}
 	}
 }

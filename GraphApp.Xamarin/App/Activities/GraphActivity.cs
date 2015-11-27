@@ -9,6 +9,7 @@ using Android.Views;
 
 namespace GraphApp.Xamarin
 {
+	[Activity ()]
 	public class GraphActivity :Activity
 	{
 		Graph graph = Controller.getGraph();

@@ -8,6 +8,7 @@ using Android.Views;
 
 namespace GraphApp.Xamarin
 {
+	[Activity ()]
 	public class TopSortActivity :Activity
 	{
 		protected override void OnCreate (Bundle savedInstanceState)

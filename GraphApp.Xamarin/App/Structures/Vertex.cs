@@ -8,7 +8,7 @@ namespace GraphApp.Xamarin
 		private String name;
 		private int distance;
 		private Vertex previous;
-		private List<Edge> incidentnts = new List<Edge>();
+		private List<Edge> incidents = new List<Edge>();
 		private List<Vertex> neighbors = new List<Vertex>();
 		private bool visited = false;
 		private String color = "white";
@@ -58,11 +58,11 @@ namespace GraphApp.Xamarin
 		}
 
 		public List<Edge> getIncidents() {
-			return incidentnts;
+			return incidents;
 		}
 
 		public void addIncidents(Edge incident) {
-			this.incidentnts.Add(incident);
+			this.incidents.Add(incident);
 
 			//adicionando neighbors a lista
 			if ( (incident.getStart().getName().Equals(this.getName())) &&
