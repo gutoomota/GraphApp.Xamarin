@@ -2,7 +2,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 7 (Marshmallow)" />
   <MonoDevelop.Ide.Workbench ActiveDocument="GraphApp.Xamarin\App\Activities\MenuActivity.cs">
     <Files>
-      <File FileName="GraphApp.Xamarin\App\Activities\MenuActivity.cs" Line="54" Column="3" />
+      <File FileName="GraphApp.Xamarin\App\Activities\EdgeActivity.cs" Line="58" Column="3" />
+      <File FileName="GraphApp.Xamarin\App\Activities\DescriptionActivity.cs" Line="40" Column="3" />
+      <File FileName="GraphApp.Xamarin\App\Activities\InputActivity.cs" Line="32" Column="4" />
+      <File FileName="GraphApp.Xamarin\App\Activities\GraphActivity.cs" Line="1" Column="1" />
+      <File FileName="GraphApp.Xamarin\App\Activities\MainActivity.cs" Line="37" Column="4" />
+      <File FileName="GraphApp.Xamarin\App\Activities\MenuActivity.cs" Line="158" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

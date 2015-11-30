@@ -6,6 +6,7 @@ using Android.Views;
 using Android.Runtime;
 
 using System;
+using System.Threading.Tasks;
 using System.Collections.Generic;
 
 namespace GraphApp.Xamarin
@@ -158,6 +159,11 @@ namespace GraphApp.Xamarin
 			}
 		}
 
+		public async void Load(){
+			await Task.Delay(2000);
+			doubleBackToExitPressedOnce=false;
+		}
+
 		public override void OnBackPressed() {
 			if (doubleBackToExitPressedOnce) {
 				Controller.destroy();
@@ -169,12 +175,8 @@ namespace GraphApp.Xamarin
 			this.doubleBackToExitPressedOnce = true;
 			Toast.MakeText(this, "Please click BACK again to exit", ToastLength.Long).Show();
 
-			new Handler().PostDelayed(new Runnable() {
+			Load ();
 
-				public override void run() {
-					doubleBackToExitPressedOnce=false;
-				}
-			}, 2000);
 		}
 	}
 }
